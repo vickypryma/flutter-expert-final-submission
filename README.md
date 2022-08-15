@@ -8,12 +8,12 @@ Dicoding flutter expert final submission
 
 ### Firebase Analytics Dashboard
 
-<img src="screenshots/analytics.png">
+![Firebase_analytics](screenshots/analytics.png)
 
 ### Firebase Crashlytics
 
-<img src="screenshots/crashlytics.png">
+![Firebase_crashlytics](screenshots/crashlytics.png)
 
-### Firebase Codemagic Build
+### Codemagic Build
 
-<img src="screenshots/codemagic.png">
+![Codemagic_build](screenshots/codemagic.png)
