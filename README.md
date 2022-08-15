@@ -1,16 +1,19 @@
-# flutter_expert_final_submission
+# Ditonton
 
-A new Flutter project.
+Dicoding flutter expert final submission
 
-## Getting Started
+[![Codemagic build status](https://api.codemagic.io/apps/62f9a705652db52794d6eb46/62f9a705652db52794d6eb45/status_badge.svg)](https://codemagic.io/apps/62f9a705652db52794d6eb46/62f9a705652db52794d6eb45/latest_build)
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+### Firebase Analytics Dashboard
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="screenshots/analytics.png">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Firebase Crashlytics
+
+<img src="screenshots/crashlytics.png">
+
+### Firebase Codemagic Build
+
+<img src="screenshots/codemagic.png">
