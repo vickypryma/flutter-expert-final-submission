@@ -63,8 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '645541413446',
     projectId: 'ditonton-bbe56',
     storageBucket: 'ditonton-bbe56.appspot.com',
-    iosClientId:
-        '645541413446-tah86qqlmc25jmks70uuavireg0e5h1m.apps.googleusercontent.com',
+    iosClientId: '645541413446-tah86qqlmc25jmks70uuavireg0e5h1m.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterExpertFinalSubmission',
   );
 }
