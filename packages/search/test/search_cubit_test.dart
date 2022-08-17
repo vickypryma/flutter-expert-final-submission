@@ -32,18 +32,14 @@ void main() {
     'should emit [Empty] when changing search type',
     build: () => searchCubit,
     act: (cubit) => cubit.changeType(false),
-    expect: () => [
-      const SearchEmpty(isMovie: false)
-    ],
+    expect: () => [const SearchEmpty(isMovie: false)],
   );
 
   blocTest<SearchCubit, SearchState>(
     'should emit [Empty] when query is empty',
     build: () => searchCubit,
     act: (cubit) => cubit.onQueryChange(''),
-    expect: () => [
-      const SearchEmpty()
-    ],
+    expect: () => [const SearchEmpty()],
   );
 
   blocTest<SearchCubit, SearchState>(

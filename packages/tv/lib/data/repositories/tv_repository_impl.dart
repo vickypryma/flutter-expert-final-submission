@@ -29,6 +29,8 @@ class TvRepositoryImpl extends TvRepository {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    } catch (e) {
+      return Left(ConnectionFailure(e.toString()));
     }
   }
 
@@ -41,6 +43,8 @@ class TvRepositoryImpl extends TvRepository {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    } catch (e) {
+      return Left(ConnectionFailure(e.toString()));
     }
   }
 
@@ -53,6 +57,8 @@ class TvRepositoryImpl extends TvRepository {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    } catch (e) {
+      return Left(ConnectionFailure(e.toString()));
     }
   }
 
@@ -65,6 +71,8 @@ class TvRepositoryImpl extends TvRepository {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    } catch (e) {
+      return Left(ConnectionFailure(e.toString()));
     }
   }
 
@@ -77,6 +85,8 @@ class TvRepositoryImpl extends TvRepository {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    } catch (e) {
+      return Left(ConnectionFailure(e.toString()));
     }
   }
 
@@ -89,6 +99,8 @@ class TvRepositoryImpl extends TvRepository {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    } catch (e) {
+      return Left(ConnectionFailure(e.toString()));
     }
   }
 
@@ -137,6 +149,8 @@ class TvRepositoryImpl extends TvRepository {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    } catch (e) {
+      return Left(ConnectionFailure(e.toString()));
     }
   }
 }
